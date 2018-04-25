@@ -1,0 +1,1443 @@
+[ 2018-04-14T10:22:47+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000294s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+
+[ 2018-04-14T10:23:23+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `pub_users` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `pub_users` WHERE ( open_id='oXwY4t-9clttAFWXjCcNRJrvch3w' ) LIMIT 1   [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0410s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=11 ) LIMIT 1   [ RunTime:0.0407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2018-04-14T10:23:25+08:00 ] ::1 /Home/Devices/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0449s ]
+SQL: SELECT `id`,`device_code` FROM `pub_devices` WHERE ( `uid`=11 )  [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0443s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=11 ) LIMIT 1   [ RunTime:0.0438s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2018-04-14T10:25:22+08:00 ] ::1 /Home/Devices/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0441s ]
+SQL: SELECT `id`,`device_code` FROM `pub_devices` WHERE ( `uid`=11 )  [ RunTime:0.0437s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0434s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=11 ) LIMIT 1   [ RunTime:0.0440s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2018-04-14T10:25:27+08:00 ] ::1 /Home/Devices/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0446s ]
+SQL: SELECT `id`,`device_code` FROM `pub_devices` WHERE ( `uid`=11 )  [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0446s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=11 ) LIMIT 1   [ RunTime:0.0442s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2018-04-14T10:25:27+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000697s ]
+
+[ 2018-04-14T10:25:27+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2018-04-14T10:25:27+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000566s ]
+
+[ 2018-04-14T10:25:29+08:00 ] ::1 /Home/Devices/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0405s ]
+SQL: SELECT `id`,`device_code` FROM `pub_devices` WHERE ( `uid`=11 )  [ RunTime:0.0399s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0401s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=11 ) LIMIT 1   [ RunTime:0.0397s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2018-04-14T10:26:02+08:00 ] ::1 /Home/Devices/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0440s ]
+SQL: SELECT `id`,`device_code` FROM `pub_devices` WHERE ( `uid`=11 )  [ RunTime:0.0432s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0432s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=11 ) LIMIT 1   [ RunTime:0.0428s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000700s ]
+
+[ 2018-04-14T10:26:04+08:00 ] ::1 /Home/Devices/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0417s ]
+SQL: SELECT `id`,`device_code` FROM `pub_devices` WHERE ( `uid`=11 )  [ RunTime:0.0406s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0409s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=11 ) LIMIT 1   [ RunTime:0.0414s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012472s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2018-04-14T10:26:58+08:00 ] ::1 /Home/Devices/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `pub_users` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `pub_users` WHERE ( open_id='oXwY4tygQ0kK3SCrYoK2pME_1b38' ) LIMIT 1   [ RunTime:0.0403s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0401s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=34 ) LIMIT 1   [ RunTime:0.0402s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0403s ]
+SQL: SELECT `id`,`device_code` FROM `pub_devices` WHERE ( `uid`=34 )  [ RunTime:0.0397s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=34 ) LIMIT 1   [ RunTime:0.0400s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012281s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2018-04-14T10:27:00+08:00 ] ::1 /Home/Devices/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `pub_users` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `pub_users` WHERE ( open_id='oXwY4tygQ0kK3SCrYoK2pME_1b38' ) LIMIT 1   [ RunTime:0.0437s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0429s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=34 ) LIMIT 1   [ RunTime:0.0437s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0437s ]
+SQL: SELECT `id`,`device_code` FROM `pub_devices` WHERE ( `uid`=34 )  [ RunTime:0.0432s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=34 ) LIMIT 1   [ RunTime:0.0427s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2018-04-14T10:27:12+08:00 ] ::1 /index.php/Home/Devices/setNowDevices.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0415s ]
+SQL: SELECT `id` FROM `pub_devices` WHERE ( `device_code`=868575025673882 ) LIMIT 1   [ RunTime:0.0403s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0408s ]
+SQL: UPDATE `pub_current_devices` SET `did`='213' WHERE ( `uid`=34 ) [ RunTime:0.0422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2018-04-14T10:27:14+08:00 ] ::1 /Home/Devices/manage
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0420s ]
+SQL: SELECT `id`,`device_code` FROM `pub_devices` WHERE ( `uid`=34 )  [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0412s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=34 ) LIMIT 1   [ RunTime:0.0402s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2018-04-14T10:27:15+08:00 ] ::1 /index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0428s ]
+SQL: SELECT `RawTDS`,`PureTDS`,`ReFlow`,`SumFlow` FROM `pub_devices` INNER JOIN pub_devices_statu ON pub_devices_statu.DeviceID=pub_devices.device_code  WHERE ( pub_devices.id=213 ) LIMIT 1   [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0407s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE ( DeviceID='868575025673882' ) LIMIT 1   [ RunTime:0.0414s ]
+SQL: SHOW COLUMNS FROM `pub_device_type` [ RunTime:0.0403s ]
+SQL: SELECT * FROM `pub_device_type` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0405s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0402s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0407s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2018-04-14T10:27:20+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0405s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `pub_current_devices` WHERE ( uid=34 )  [ RunTime:0.0404s ]
+NOTIC: [8] Undefined index: bindtime /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `pub_flow` WHERE ( did=138 ) ORDER BY addtime desc LIMIT 0,1   [ RunTime:0.0404s ]
+NOTIC: [8] Undefined offset: 0 /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php 第 68 行.
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0408s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1 
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1 
+
+[ 2018-04-14T10:27:36+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0421s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0412s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( uid=34 )  [ RunTime:0.0416s ]
+NOTIC: [8] Undefined index: bindtime /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `pub_flow` WHERE ( did=66 ) ORDER BY addtime desc LIMIT 0,1   [ RunTime:0.0414s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0411s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1 
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1 
+
+[ 2018-04-14T10:27:37+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0414s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0405s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( uid=34 )  [ RunTime:0.0404s ]
+NOTIC: [8] Undefined index: bindtime /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php 第 60 行.
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0406s ]
+SQL: SELECT * FROM `pub_flow` WHERE ( did=66 ) ORDER BY addtime desc LIMIT 0,1   [ RunTime:0.0463s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0403s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1 
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1 
+
+[ 2018-04-14T10:27:43+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0445s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( uid=34 )  [ RunTime:0.0437s ]
+NOTIC: [8] Undefined index: bindtime /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `pub_flow` WHERE ( did=66 ) ORDER BY addtime desc LIMIT 0,1   [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0440s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1 
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1 
+
+[ 2018-04-14T10:27:44+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0434s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( uid=34 )  [ RunTime:0.0436s ]
+NOTIC: [8] Undefined index: bindtime /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php 第 57 行.
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `pub_flow` WHERE ( did=66 ) ORDER BY addtime desc LIMIT 0,1   [ RunTime:0.0435s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0435s ]
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1 
+ERR: 1054:Unknown column 'status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1 
+
+[ 2018-04-14T10:30:59+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0398s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0394s ]
+SQL: SELECT * FROM `pub_current_devices` WHERE ( uid=34 )  [ RunTime:0.0394s ]
+NOTIC: [8] Undefined variable: bindtime /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php 第 70 行.
+NOTIC: [8] Undefined variable: flowtime /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php 第 70 行.
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0398s ]
+ERR: 1054:Unknown column 's.status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND s.status = 0 
+ERR: 1054:Unknown column 's.status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND s.status = 0 
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/Gits/dianqiu/project/ThinkPHP/Common/functions.php:850) /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/Gits/dianqiu/project/ThinkPHP/Common/functions.php:850) /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2018-04-14T10:38:13+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0397s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0399s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 72 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+
+[ 2018-04-14T10:38:31+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0423s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0427s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 72 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+
+[ 2018-04-14T10:38:32+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0422s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0430s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 72 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+
+[ 2018-04-14T10:38:32+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0424s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0426s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 72 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+
+[ 2018-04-14T10:38:33+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0437s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0436s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 72 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+
+[ 2018-04-14T10:38:33+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0438s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0433s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 72 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+
+[ 2018-04-14T10:38:34+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0433s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 72 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+
+[ 2018-04-14T10:38:34+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0426s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0428s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 72 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+
+[ 2018-04-14T10:38:34+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0408s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0408s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0403s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 72 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+
+[ 2018-04-14T10:38:48+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0417s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0408s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0415s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 72 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+ERR: 1146:Table 'pub_test.pub_devicesstatu' doesn't exist
+ [ SQL语句 ] : SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devicesstatu ds ON d.device_code=ds.DeviceID  LIMIT 1  
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/Gits/dianqiu/project/ThinkPHP/Common/functions.php:850) /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /www/Gits/dianqiu/project/ThinkPHP/Common/functions.php:850) /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2018-04-14T10:39:01+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0410s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 72 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0418s ]
+
+[ 2018-04-14T10:39:37+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0447s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0437s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0444s ]
+
+[ 2018-04-14T10:40:12+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0406s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT * FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0412s ]
+
+[ 2018-04-14T10:40:22+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0406s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0402s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0407s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0405s ]
+
+[ 2018-04-14T10:40:52+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-04-14T10:40:58+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0434s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0433s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0433s ]
+
+[ 2018-04-14T10:45:55+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0405s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0411s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0406s ]
+ERR: 1054:Unknown column 's.status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND s.status = 0 
+ERR: 1054:Unknown column 's.status' in 'where clause'
+ [ SQL语句 ] : SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND s.status = 0 
+
+[ 2018-04-14T10:46:57+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0419s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0424s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0426s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0425s ]
+SQL: SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND s.status = 0  [ RunTime:0.0429s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0423s ]
+SQL: SELECT `filter1`,`filter2`,`filter3`,`filter4`,`filter5`,`filter6`,`filter7`,`filter8` FROM `pub_filters` INNER JOIN pub_devices ON pub_devices.id =213 INNER JOIN pub_device_type ON pub_device_type.id = pub_devices.type_id  LIMIT 1   [ RunTime:0.0425s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0425s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0421s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0428s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0422s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_setmeal` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0419s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0414s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_filters` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0419s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2018-04-14T10:49:07+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0405s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0407s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0408s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0406s ]
+SQL: SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1  [ RunTime:0.0403s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0408s ]
+SQL: SELECT `filter1`,`filter2`,`filter3`,`filter4`,`filter5`,`filter6`,`filter7`,`filter8` FROM `pub_filters` INNER JOIN pub_devices ON pub_devices.id =213 INNER JOIN pub_device_type ON pub_device_type.id = pub_devices.type_id  LIMIT 1   [ RunTime:0.0407s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0408s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0405s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0400s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0401s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0402s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_setmeal` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0401s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0405s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_filters` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0404s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030020s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2018-04-14T10:51:37+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0437s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0435s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0436s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0438s ]
+SQL: SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1  [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0436s ]
+SQL: SELECT `filter1`,`filter2`,`filter3`,`filter4`,`filter5`,`filter6`,`filter7`,`filter8` FROM `pub_filters` INNER JOIN pub_devices ON pub_devices.id =213 INNER JOIN pub_device_type ON pub_device_type.id = pub_devices.type_id  LIMIT 1   [ RunTime:0.0438s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0444s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0439s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0436s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0432s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0435s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_setmeal` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0423s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0435s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_filters` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0432s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2018-04-14T10:51:53+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0437s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0436s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0441s ]
+SQL: SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1  [ RunTime:0.0684s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0430s ]
+SQL: SELECT `filter1`,`filter2`,`filter3`,`filter4`,`filter5`,`filter6`,`filter7`,`filter8` FROM `pub_filters` INNER JOIN pub_devices ON pub_devices.id =213 INNER JOIN pub_device_type ON pub_device_type.id = pub_devices.type_id  LIMIT 1   [ RunTime:0.0434s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0435s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0434s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0432s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0436s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_setmeal` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0434s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_filters` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0426s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000280s ]
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022712s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000191s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2018-04-14T10:52:06+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0426s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0411s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0414s ]
+SQL: SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND s.status = 0  [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0414s ]
+SQL: SELECT `filter1`,`filter2`,`filter3`,`filter4`,`filter5`,`filter6`,`filter7`,`filter8` FROM `pub_filters` INNER JOIN pub_devices ON pub_devices.id =213 INNER JOIN pub_device_type ON pub_device_type.id = pub_devices.type_id  LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0411s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0410s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0416s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0412s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_setmeal` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0411s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_filters` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0403s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021180s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2018-04-14T10:53:20+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0432s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0435s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0433s ]
+SQL: SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND s.status = 0  [ RunTime:0.0441s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0438s ]
+SQL: SELECT `filter1`,`filter2`,`filter3`,`filter4`,`filter5`,`filter6`,`filter7`,`filter8` FROM `pub_filters` INNER JOIN pub_devices ON pub_devices.id =213 INNER JOIN pub_device_type ON pub_device_type.id = pub_devices.type_id  LIMIT 1   [ RunTime:0.0436s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0435s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0434s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0434s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0428s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0433s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_setmeal` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0424s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0432s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_filters` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0430s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2018-04-14T10:53:35+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0455s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0441s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0441s ]
+SQL: SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1  [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0445s ]
+SQL: SELECT `filter1`,`filter2`,`filter3`,`filter4`,`filter5`,`filter6`,`filter7`,`filter8` FROM `pub_filters` INNER JOIN pub_devices ON pub_devices.id =213 INNER JOIN pub_device_type ON pub_device_type.id = pub_devices.type_id  LIMIT 1   [ RunTime:0.0439s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0437s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0441s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0431s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_setmeal` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0435s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0440s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_filters` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0435s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2018-04-14T10:54:02+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0417s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0419s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0404s ]
+SQL: SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND s.status = 0  [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0407s ]
+SQL: SELECT `filter1`,`filter2`,`filter3`,`filter4`,`filter5`,`filter6`,`filter7`,`filter8` FROM `pub_filters` INNER JOIN pub_devices ON pub_devices.id =213 INNER JOIN pub_device_type ON pub_device_type.id = pub_devices.type_id  LIMIT 1   [ RunTime:0.0401s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0406s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0406s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0404s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0406s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0405s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_setmeal` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0401s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0407s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_filters` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0398s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000780s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2018-04-14T10:54:20+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0430s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0486s ]
+SQL: SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1  [ RunTime:0.0437s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0447s ]
+SQL: SELECT `filter1`,`filter2`,`filter3`,`filter4`,`filter5`,`filter6`,`filter7`,`filter8` FROM `pub_filters` INNER JOIN pub_devices ON pub_devices.id =213 INNER JOIN pub_device_type ON pub_device_type.id = pub_devices.type_id  LIMIT 1   [ RunTime:0.0434s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0439s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0439s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0440s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0434s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_setmeal` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0468s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_filters` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0453s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018045s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2018-04-14T10:55:08+08:00 ] ::1 /index.php/Home/ShoppingCart/shopAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0421s ]
+SQL: SELECT `id`,`num` FROM `pub_cart_setmeal` WHERE `uid` = 34 AND `sid` = 66 LIMIT 1   [ RunTime:0.0405s ]
+SQL: INSERT INTO `pub_cart_setmeal` (`uid`,`sid`,`num`,`create_time`) VALUES ('34','66','1','1523674508') [ RunTime:0.0412s ]
+
+[ 2018-04-14T10:55:09+08:00 ] ::1 /index.php/Home/PaymentSystem/action.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0427s ]
+SQL: SELECT * FROM `pub_cart_setmeal` INNER JOIN pub_setmeal ON pub_setmeal.id = pub_cart_setmeal.sid  WHERE ( `uid`='34' AND `num`>0 )  [ RunTime:0.0429s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0421s ]
+SQL: SELECT * FROM `pub_cart_filters` INNER JOIN pub_filters ON pub_filters.id = pub_cart_filters.fid  WHERE ( `uid`='34'  AND `num`>0 )  [ RunTime:0.0423s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0427s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0423s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0417s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0421s ]
+SQL: SELECT `id` FROM `pub_orders` WHERE ( `order_id`='483956575881424213' ) LIMIT 1   [ RunTime:0.0421s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0421s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=34 ) LIMIT 1   [ RunTime:0.0421s ]
+SQL: INSERT INTO `pub_orders` (`order_id`,`user_id`,`device_id`,`total_num`,`total_price`,`created_at`) VALUES ('483956575881424213','34','213','1','10000','1523674508') [ RunTime:0.0419s ]
+SQL: INSERT INTO `pub_order_setmeal` (`order_id`,`setmeal_id`,`type_id`,`remodel`,`money`,`flow`,`describe`,`goods_num`,`goods_price`,`created_at`) VALUES ('483956575881424213','66','5','1','10000.00','100','测试测试','1','10000.00','1523674508') [ RunTime:0.0417s ]
+SQL: DELETE FROM `pub_cart_setmeal` WHERE ( `uid`=34 AND `sid`=66 ) [ RunTime:0.0416s ]
+SQL: SELECT `id` FROM `pub_orders` WHERE ( `order_id`='502008500624866213' ) LIMIT 1   [ RunTime:0.0409s ]
+
+[ 2018-04-14T10:55:10+08:00 ] ::1 /index.php/Home/ShoppingCart/shopAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0436s ]
+SQL: SELECT `id`,`num` FROM `pub_cart_setmeal` WHERE `uid` = 34 AND `sid` = 66 LIMIT 1   [ RunTime:0.0472s ]
+SQL: INSERT INTO `pub_cart_setmeal` (`uid`,`sid`,`num`,`create_time`) VALUES ('34','66','1','1523674510') [ RunTime:0.0431s ]
+
+[ 2018-04-14T10:55:11+08:00 ] ::1 /index.php/Home/PaymentSystem/action.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0407s ]
+SQL: SELECT * FROM `pub_cart_setmeal` INNER JOIN pub_setmeal ON pub_setmeal.id = pub_cart_setmeal.sid  WHERE ( `uid`='34' AND `num`>0 )  [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0405s ]
+SQL: SELECT * FROM `pub_cart_filters` INNER JOIN pub_filters ON pub_filters.id = pub_cart_filters.fid  WHERE ( `uid`='34'  AND `num`>0 )  [ RunTime:0.0413s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0409s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0402s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0410s ]
+SQL: SELECT `id` FROM `pub_orders` WHERE ( `order_id`='440376244441919213' ) LIMIT 1   [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0401s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=34 ) LIMIT 1   [ RunTime:0.0400s ]
+SQL: INSERT INTO `pub_orders` (`order_id`,`user_id`,`device_id`,`total_num`,`total_price`,`created_at`) VALUES ('440376244441919213','34','213','1','10000','1523674511') [ RunTime:0.0398s ]
+SQL: INSERT INTO `pub_order_setmeal` (`order_id`,`setmeal_id`,`type_id`,`remodel`,`money`,`flow`,`describe`,`goods_num`,`goods_price`,`created_at`) VALUES ('440376244441919213','66','5','1','10000.00','100','测试测试','1','10000.00','1523674511') [ RunTime:0.0398s ]
+SQL: DELETE FROM `pub_cart_setmeal` WHERE ( `uid`=34 AND `sid`=66 ) [ RunTime:0.0400s ]
+SQL: SELECT `id` FROM `pub_orders` WHERE ( `order_id`='639321188940159213' ) LIMIT 1   [ RunTime:0.0396s ]
+
+[ 2018-04-14T10:55:14+08:00 ] ::1 /index.php/Home/ShoppingCart/shopAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0435s ]
+SQL: SELECT `id`,`num` FROM `pub_cart_setmeal` WHERE `uid` = 34 AND `sid` = 66 LIMIT 1   [ RunTime:0.0431s ]
+SQL: INSERT INTO `pub_cart_setmeal` (`uid`,`sid`,`num`,`create_time`) VALUES ('34','66','1','1523674514') [ RunTime:0.0429s ]
+
+[ 2018-04-14T10:55:15+08:00 ] ::1 /index.php/Home/PaymentSystem/action.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `pub_cart_setmeal` INNER JOIN pub_setmeal ON pub_setmeal.id = pub_cart_setmeal.sid  WHERE ( `uid`='34' AND `num`>0 )  [ RunTime:0.0434s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0425s ]
+SQL: SELECT * FROM `pub_cart_filters` INNER JOIN pub_filters ON pub_filters.id = pub_cart_filters.fid  WHERE ( `uid`='34'  AND `num`>0 )  [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0436s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0430s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0431s ]
+SQL: SELECT `id` FROM `pub_orders` WHERE ( `order_id`='787502605444724213' ) LIMIT 1   [ RunTime:0.0428s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0430s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=34 ) LIMIT 1   [ RunTime:0.0431s ]
+SQL: INSERT INTO `pub_orders` (`order_id`,`user_id`,`device_id`,`total_num`,`total_price`,`created_at`) VALUES ('787502605444724213','34','213','1','10000','1523674515') [ RunTime:0.0425s ]
+SQL: INSERT INTO `pub_order_setmeal` (`order_id`,`setmeal_id`,`type_id`,`remodel`,`money`,`flow`,`describe`,`goods_num`,`goods_price`,`created_at`) VALUES ('787502605444724213','66','5','1','10000.00','100','测试测试','1','10000.00','1523674515') [ RunTime:0.0418s ]
+SQL: DELETE FROM `pub_cart_setmeal` WHERE ( `uid`=34 AND `sid`=66 ) [ RunTime:0.0423s ]
+SQL: SELECT `id` FROM `pub_orders` WHERE ( `order_id`='858550358925232213' ) LIMIT 1   [ RunTime:0.0425s ]
+
+[ 2018-04-14T15:13:55+08:00 ] ::1 /index.php/Home/Shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0434s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0429s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in /www/Gits/dianqiu/project/Application/Home/Controller/ShopController.class.php on line 71 and defined /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1816 行.
+SQL: SELECT ds.alivestause FROM pub_current_devices c LEFT JOIN pub_devices d ON c.did=d.id LEFT JOIN pub_devices_statu ds ON d.device_code=ds.DeviceID  LIMIT 1   [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0436s ]
+SQL: SELECT cd.*,d.*,s.* FROM pub_setmeal s LEFT JOIN pub_devices d ON s.tid=d.type_id LEFT JOIN pub_current_devices cd ON d.id=cd.did  WHERE cd.did = '213' AND `status` = 1  [ RunTime:0.0428s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0431s ]
+SQL: SELECT `filter1`,`filter2`,`filter3`,`filter4`,`filter5`,`filter6`,`filter7`,`filter8` FROM `pub_filters` INNER JOIN pub_devices ON pub_devices.id =213 INNER JOIN pub_device_type ON pub_device_type.id = pub_devices.type_id  LIMIT 1   [ RunTime:0.0426s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0434s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0432s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0435s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `pub_cart_setmeal` [ RunTime:0.0427s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_setmeal` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0427s ]
+SQL: SHOW COLUMNS FROM `pub_cart_filters` [ RunTime:0.0431s ]
+SQL: SELECT SUM(num) AS tp_sum FROM `pub_cart_filters` WHERE ( `uid`='34' ) LIMIT 1   [ RunTime:0.0425s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+NOTIC: [8] Array to string conversion /www/Gits/dianqiu/project/Application/Runtime/Cache/Home/58c9b418295366ada92ef91abf88ff39.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2018-04-14T15:13:58+08:00 ] ::1 /index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0424s ]
+SQL: SELECT `RawTDS`,`PureTDS`,`ReFlow`,`SumFlow` FROM `pub_devices` INNER JOIN pub_devices_statu ON pub_devices_statu.DeviceID=pub_devices.device_code  WHERE ( pub_devices.id=213 ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0417s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0418s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE ( DeviceID='868575025673882' ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `pub_device_type` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `pub_device_type` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0415s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0414s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0416s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0417s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025106s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025245s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2018-04-14T16:28:07+08:00 ] ::1 /index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `pub_users` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `pub_users` WHERE ( open_id='oXwY4tygQ0kK3SCrYoK2pME_1b38' ) LIMIT 1   [ RunTime:0.0432s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0431s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=34 ) LIMIT 1   [ RunTime:0.0425s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0431s ]
+SQL: SELECT `RawTDS`,`PureTDS`,`ReFlow`,`SumFlow` FROM `pub_devices` INNER JOIN pub_devices_statu ON pub_devices_statu.DeviceID=pub_devices.device_code  WHERE ( pub_devices.id=213 ) LIMIT 1   [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=213 ) LIMIT 1   [ RunTime:0.0426s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE ( DeviceID='868575025673882' ) LIMIT 1   [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `pub_device_type` [ RunTime:0.0422s ]
+SQL: SELECT * FROM `pub_device_type` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0426s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0427s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0424s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0433s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+

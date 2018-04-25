@@ -1,0 +1,78 @@
+[ 2018-04-18T15:16:01+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-04-18T18:04:10+08:00 ] ::1 /apple-touch-icon-precomposed.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002300s ]
+ERR: 无法加载模块:Apple-touch-icon-precomposed
+
+[ 2018-04-18T18:04:10+08:00 ] ::1 /apple-touch-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+ERR: 无法加载模块:Apple-touch-icon
+
+[ 2018-04-18T18:04:10+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-04-18T18:04:10+08:00 ] ::1 /apple-touch-icon-precomposed.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+ERR: 无法加载模块:Apple-touch-icon-precomposed
+
+[ 2018-04-18T18:04:10+08:00 ] ::1 /apple-touch-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+ERR: 无法加载模块:Apple-touch-icon
+
+[ 2018-04-18T18:04:10+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-04-18T18:04:10+08:00 ] ::1 /apple-touch-icon-precomposed.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+ERR: 无法加载模块:Apple-touch-icon-precomposed
+
+[ 2018-04-18T18:04:10+08:00 ] ::1 /apple-touch-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载模块:Apple-touch-icon
+
+[ 2018-04-18T18:04:10+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+ERR: 无法加载模块:Favicon
+
+[ 2018-04-18T18:04:10+08:00 ] ::1 /apple-touch-icon-precomposed.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+ERR: 无法加载模块:Apple-touch-icon-precomposed
+
+[ 2018-04-18T18:04:10+08:00 ] ::1 /apple-touch-icon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+ERR: 无法加载模块:Apple-touch-icon
+
+[ 2018-04-18T18:04:10+08:00 ] ::1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+ERR: 无法加载模块:Favicon
+

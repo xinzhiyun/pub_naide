@@ -1,0 +1,12 @@
+[ 2018-04-01T18:03:52+08:00 ] ::1 /index.php/api/action/test
+发送信息包: {"DeviceID":"868575025672249","PackType":"SetData","Vison":0,"Reday":"226"}
+[ 2018-04-01T18:03:52+08:00 ] ::1 /index.php/api/action/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+NOTIC: [2] stream_socket_client(): unable to connect to tcp://127.0.0.1:9504 (Connection refused) /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/Gateway.class.php 第 834 行.
+ERR: Can not connect to tcp://127.0.0.1:9504 Connection refused
+

@@ -1,0 +1,36 @@
+[ 2018-03-31T09:52:54+08:00 ] ::1 /index.php/Home/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0295s ]
+SQL: SELECT `RawTDS`,`PureTDS`,`ReFlow`,`SumFlow` FROM `pub_devices` INNER JOIN pub_devices_statu ON pub_devices_statu.DeviceID=pub_devices.device_code  WHERE ( pub_devices.id=66 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE ( DeviceID='868575025673379' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_device_type` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `pub_device_type` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'RO膜' AND `alias` = 'RO膜360' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '1微米' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '后置活性炭' AND `alias` = '后置活性炭120' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000292s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+

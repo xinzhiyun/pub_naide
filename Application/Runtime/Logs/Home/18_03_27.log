@@ -1,0 +1,446 @@
+[ 2018-03-27T19:32:07+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0018s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2018-03-27T19:32:22+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+
+[ 2018-03-27T19:32:31+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0080s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2018-03-27T19:32:51+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0086s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2018-03-27T19:34:30+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+bbbbbbbbbbbbbbbbbbbb: {"id":"72","deviceid":"868575025673379","devicestause":"0","reflow":"899","reday":"390","rawtds":"0","puretds":"0","temperature":"-1","reflowfilter1":"-1","redayfilter1":"199","reflowfilter2":"-1","redayfilter2":"399","reflowfilter3":"-1","redayfilter3":"129","reflowfilter4":"-1","redayfilter4":"499","reflowfilter5":"-1","redayfilter5":"199","reflowfilter6":"-1","redayfilter6":"17614","reflowfilter7":null,"redayfilter7":null,"reflowfilter8":null,"redayfilter8":null,"leasingmode":"2","alivestause":"1","sumflow":"0","sumday":"1","filtermode":"0","device":"GPRS","iccid":"898607B6191730009325","csq":"30","loaction":"25CB,708D\u0000","addtime":null,"updatetime":"1522028197","netstause":"0","data_statu":"1"}
+[ 2018-03-27T19:34:30+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0073s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0004s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pub_devices_statu` SET `ReFlow`='899',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0008s ]
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100','899','1522150470') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0029s ]
+SQL: SELECT `id` FROM `pub_devices_statu` WHERE ( DeviceID=868575025673379 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2018-03-27T19:34:33+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0019s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2018-03-27T19:34:34+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0082s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000850s ]
+
+[ 2018-03-27T19:38:49+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+bbbbbbbbbbbbbbbbbbbb: {"id":"72","deviceid":"868575025673379","devicestause":"0","reflow":"999","reday":"390","rawtds":"0","puretds":"0","temperature":"-1","reflowfilter1":"-1","redayfilter1":"199","reflowfilter2":"-1","redayfilter2":"399","reflowfilter3":"-1","redayfilter3":"129","reflowfilter4":"-1","redayfilter4":"499","reflowfilter5":"-1","redayfilter5":"199","reflowfilter6":"-1","redayfilter6":"17614","reflowfilter7":null,"redayfilter7":null,"reflowfilter8":null,"redayfilter8":null,"leasingmode":"2","alivestause":"1","sumflow":"0","sumday":"1","filtermode":"0","device":"GPRS","iccid":"898607B6191730009325","csq":"30","loaction":"25CB,708D\u0000","addtime":null,"updatetime":"1522028197","netstause":"0","data_statu":"1"}
+[ 2018-03-27T19:38:49+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0078s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0002s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `pub_devices_statu` SET `ReFlow`='999',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0005s ]
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100','999','1522150729') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `pub_devices_statu` WHERE ( DeviceID=868575025673379 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2018-03-27T19:39:55+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+bbbbbbbbbbbbbbbbbbbb: {"id":"72","deviceid":"868575025673379","devicestause":"0","reflow":"1099","reday":"390","rawtds":"0","puretds":"0","temperature":"-1","reflowfilter1":"-1","redayfilter1":"199","reflowfilter2":"-1","redayfilter2":"399","reflowfilter3":"-1","redayfilter3":"129","reflowfilter4":"-1","redayfilter4":"499","reflowfilter5":"-1","redayfilter5":"199","reflowfilter6":"-1","redayfilter6":"17614","reflowfilter7":null,"redayfilter7":null,"reflowfilter8":null,"redayfilter8":null,"leasingmode":"2","alivestause":"1","sumflow":"0","sumday":"1","filtermode":"0","device":"GPRS","iccid":"898607B6191730009325","csq":"30","loaction":"25CB,708D\u0000","addtime":null,"updatetime":"1522028197","netstause":"0","data_statu":"1"}
+[ 2018-03-27T19:39:55+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0021s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0002s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pub_devices_statu` SET `ReFlow`='1099',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0005s ]
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100','1099','1522150795') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0023s ]
+SQL: SELECT `id` FROM `pub_devices_statu` WHERE ( DeviceID=868575025673379 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2018-03-27T19:41:05+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+bbbbbbbbbbbbbbbbbbbb: {"id":"72","deviceid":"868575025673379","devicestause":"0","reflow":"1199","reday":"390","rawtds":"0","puretds":"0","temperature":"-1","reflowfilter1":"-1","redayfilter1":"199","reflowfilter2":"-1","redayfilter2":"399","reflowfilter3":"-1","redayfilter3":"129","reflowfilter4":"-1","redayfilter4":"499","reflowfilter5":"-1","redayfilter5":"199","reflowfilter6":"-1","redayfilter6":"17614","reflowfilter7":null,"redayfilter7":null,"reflowfilter8":null,"redayfilter8":null,"leasingmode":"2","alivestause":"1","sumflow":"0","sumday":"1","filtermode":"0","device":"GPRS","iccid":"898607B6191730009325","csq":"30","loaction":"25CB,708D\u0000","addtime":null,"updatetime":"1522028197","netstause":"0","data_statu":"1"}
+[ 2018-03-27T19:41:05+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0082s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0002s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pub_devices_statu` SET `ReFlow`='1199',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0005s ]
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100','1199','1522150865') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `pub_devices_statu` WHERE ( DeviceID=868575025673379 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2018-03-27T19:41:19+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+bbbbbbbbbbbbbbbbbbbb: {"id":"72","deviceid":"868575025673379","devicestause":"0","reflow":"1299","reday":"390","rawtds":"0","puretds":"0","temperature":"-1","reflowfilter1":"-1","redayfilter1":"199","reflowfilter2":"-1","redayfilter2":"399","reflowfilter3":"-1","redayfilter3":"129","reflowfilter4":"-1","redayfilter4":"499","reflowfilter5":"-1","redayfilter5":"199","reflowfilter6":"-1","redayfilter6":"17614","reflowfilter7":null,"redayfilter7":null,"reflowfilter8":null,"redayfilter8":null,"leasingmode":"2","alivestause":"1","sumflow":"0","sumday":"1","filtermode":"0","device":"GPRS","iccid":"898607B6191730009325","csq":"30","loaction":"25CB,708D\u0000","addtime":null,"updatetime":"1522028197","netstause":"0","data_statu":"1"}
+[ 2018-03-27T19:41:19+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0083s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0028s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0003s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `pub_devices_statu` SET `ReFlow`='1299',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0006s ]
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100','1299','1522150879') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `pub_devices_statu` WHERE ( DeviceID=868575025673379 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+
+[ 2018-03-27T19:43:39+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+bbbbbbbbbbbbbbbbbbbb: {"id":"72","deviceid":"868575025673379","devicestause":"0","reflow":"1399","reday":"390","rawtds":"0","puretds":"0","temperature":"-1","reflowfilter1":"-1","redayfilter1":"199","reflowfilter2":"-1","redayfilter2":"399","reflowfilter3":"-1","redayfilter3":"129","reflowfilter4":"-1","redayfilter4":"499","reflowfilter5":"-1","redayfilter5":"199","reflowfilter6":"-1","redayfilter6":"17614","reflowfilter7":null,"redayfilter7":null,"reflowfilter8":null,"redayfilter8":null,"leasingmode":"2","alivestause":"1","sumflow":"0","sumday":"1","filtermode":"0","device":"GPRS","iccid":"898607B6191730009325","csq":"30","loaction":"25CB,708D\u0000","addtime":null,"updatetime":"1522028197","netstause":"0","data_statu":"1"}
+[ 2018-03-27T19:43:39+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0084s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0002s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pub_devices_statu` SET `ReFlow`='1399',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0006s ]
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100','1399','1522151019') [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0022s ]
+SQL: SELECT `id` FROM `pub_devices_statu` WHERE ( DeviceID=868575025673379 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2018-03-27T19:46:50+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+bbbbbbbbbbbbbbbbbbbb: {"id":"72","deviceid":"868575025673379","devicestause":"0","reflow":"1399","reday":"1499","rawtds":"0","puretds":"0","temperature":"-1","reflowfilter1":"-1","redayfilter1":"199","reflowfilter2":"-1","redayfilter2":"399","reflowfilter3":"-1","redayfilter3":"129","reflowfilter4":"-1","redayfilter4":"499","reflowfilter5":"-1","redayfilter5":"199","reflowfilter6":"-1","redayfilter6":"17614","reflowfilter7":null,"redayfilter7":null,"reflowfilter8":null,"redayfilter8":null,"leasingmode":"2","alivestause":"1","sumflow":"0","sumday":"1","filtermode":"0","device":"GPRS","iccid":"898607B6191730009325","csq":"30","loaction":"25CB,708D\u0000","addtime":null,"updatetime":"1522028197","netstause":"0","data_statu":"1"}
+[ 2018-03-27T19:46:50+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0083s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0002s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `pub_devices_statu` SET `ReDay`='1499',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ReFlow /www/Gits/dianqiu/project/Application/Home/Controller/PaymentSystemController.class.php 第 1028 行.
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100',NULL,'1522151210') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0024s ]
+SQL: SELECT `id` FROM `pub_devices_statu` WHERE ( DeviceID=868575025673379 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2018-03-27T19:47:09+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0079s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0002s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `pub_devices_statu` SET `ReDay`='1499',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: ReFlow /www/Gits/dianqiu/project/Application/Home/Controller/PaymentSystemController.class.php 第 1028 行.
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100',NULL,'1522151229') [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-03-27T19:47:50+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0082s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0004s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0006s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `pub_devices_statu` SET `ReDay`='1499',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: ReFlow /www/Gits/dianqiu/project/Application/Home/Controller/PaymentSystemController.class.php 第 1028 行.
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100',NULL,'1522151270') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2018-03-27T19:48:16+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0072s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0002s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pub_devices_statu` SET `ReDay`='1499',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ReFlow /www/Gits/dianqiu/project/Application/Home/Controller/PaymentSystemController.class.php 第 1028 行.
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100',NULL,'1522151296') [ RunTime:0.0009s ]
+
+[ 2018-03-27T19:48:53+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0019s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0003s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `pub_devices_statu` SET `ReDay`='1499',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ReFlow /www/Gits/dianqiu/project/Application/Home/Controller/PaymentSystemController.class.php 第 1028 行.
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100',NULL,'1522151333') [ RunTime:0.0004s ]
+
+[ 2018-03-27T19:49:34+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0024s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0002s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pub_devices_statu` SET `ReDay`='1499',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ReFlow /www/Gits/dianqiu/project/Application/Home/Controller/PaymentSystemController.class.php 第 1028 行.
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100',NULL,'1522151374') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: msg /www/Gits/dianqiu/project/Application/Home/Controller/PaymentSystemController.class.php 第 1053 行.
+
+[ 2018-03-27T19:50:10+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0082s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0003s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pub_devices_statu` SET `ReDay`='1499',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: ReFlow /www/Gits/dianqiu/project/Application/Home/Controller/PaymentSystemController.class.php 第 1028 行.
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100',NULL,'1522151410') [ RunTime:0.0003s ]
+
+[ 2018-03-27T19:51:04+08:00 ] ::1 /index.php/Home/PaymentSystem/notify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0020s ]
+SQL: SELECT `is_pay`,`total_price`,`device_id` FROM `pub_orders` WHERE `order_id` = '393068816013024114' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pub_order_filter` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `pub_order_setmeal` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pub_order_setmeal` WHERE `order_id` = '393068816013024114'  [ RunTime:0.0002s ]
+SQL: UPDATE `pub_orders` SET `is_pay`='1',`is_recharge`='1' WHERE `order_id` = '393068816013024114' [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0053s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE `DeviceID` = '868575025673379' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `pub_devices_statu` SET `ReDay`='1499',`data_statu`='1' WHERE `DeviceID` = '868575025673379' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: ReFlow /www/Gits/dianqiu/project/Application/Home/Controller/PaymentSystemController.class.php 第 1029 行.
+SQL: INSERT INTO `pub_flow` (`order_id`,`did`,`money`,`mode`,`flow`,`num`,`describe`,`currentflow`,`addtime`) VALUES ('393068816013024114','114','10000.00','1','100','1','满意100',NULL,'1522151464') [ RunTime:0.0004s ]
+
+[ 2018-03-27T23:57:46+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+

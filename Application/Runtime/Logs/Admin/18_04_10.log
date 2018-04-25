@@ -1,0 +1,20 @@
+[ 2018-04-10T09:52:42+08:00 ] 127.0.0.1 /index.php/Admin/Setmeal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2018-04-10T09:53:25+08:00 ] 127.0.0.1 /index.php/Admin/Setmeal/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+

@@ -1,0 +1,1099 @@
+[ 2018-04-14T10:47:19+08:00 ] ::1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+
+[ 2018-04-14T10:47:19+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2018-04-14T10:47:20+08:00 ] ::1 /index.php/Admin/Login/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2018-04-14T10:47:25+08:00 ] ::1 /index.php/Admin/Login/yzm?id=0.3276590546814866
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001151s ]
+
+[ 2018-04-14T10:47:28+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `pub_vendors` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `pub_vendors` WHERE ( user='admin' ) LIMIT 1   [ RunTime:0.0446s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015229s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+
+[ 2018-04-14T10:47:29+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2018-04-14T10:47:29+08:00 ] ::1 /index.php/Admin/Login/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000678s ]
+
+[ 2018-04-14T10:47:36+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `pub_vendors` [ RunTime:0.0407s ]
+SQL: SELECT * FROM `pub_vendors` WHERE ( user='admin' ) LIMIT 1   [ RunTime:0.0404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+
+[ 2018-04-14T10:47:37+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000189s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2018-04-14T10:47:40+08:00 ] ::1 /index.php/Admin/Login/yzm?id=0.7099650529692791
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2018-04-14T10:47:46+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `pub_vendors` [ RunTime:0.0411s ]
+SQL: SELECT * FROM `pub_vendors` WHERE ( user='admin' ) LIMIT 1   [ RunTime:0.0401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008419s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+
+[ 2018-04-14T10:47:48+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2018-04-14T10:47:48+08:00 ] ::1 /index.php/Admin/Login/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2018-04-14T10:47:54+08:00 ] ::1 /index.php/Admin/Login/yzm?id=0.9493884202569682
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2018-04-14T10:47:57+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `pub_vendors` [ RunTime:0.0424s ]
+SQL: SELECT * FROM `pub_vendors` WHERE ( user='admin' ) LIMIT 1   [ RunTime:0.0412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-04-14T10:47:59+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2018-04-14T10:47:59+08:00 ] ::1 /index.php/Admin/Login/yzm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001049s ]
+
+[ 2018-04-14T10:48:04+08:00 ] ::1 /index.php/Admin/Login/yzm?id=0.588058920572998
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2018-04-14T10:48:09+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `pub_vendors` [ RunTime:0.0418s ]
+SQL: SELECT * FROM `pub_vendors` WHERE ( user='admin' ) LIMIT 1   [ RunTime:0.0416s ]
+
+[ 2018-04-14T10:48:10+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0453s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0444s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0437s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0440s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000195s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2018-04-14T10:48:11+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0412s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0445s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0404s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0400s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0396s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `pub_flow` WHERE ( `addtime` > 1522512000 AND `addtime` < 1525104000  ) AND ( `status` = '1' )  [ RunTime:0.0409s ]
+NOTIC: [8] Undefined offset: 1 /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0402s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( `addtime` > 1522512000 AND `addtime` < 1525104000  )  [ RunTime:0.0391s ]
+NOTIC: [8] Undefined offset: 1 /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0389s ]
+SQL: SELECT distinct(order_id) FROM `pub_orders`  [ RunTime:0.0398s ]
+SQL: SHOW COLUMNS FROM `pub_repair` [ RunTime:0.0398s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pub_repair` LIMIT 1   [ RunTime:0.0397s ]
+SQL: SHOW COLUMNS FROM `pub_feeds` [ RunTime:0.0398s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pub_feeds` LIMIT 1   [ RunTime:0.0391s ]
+
+[ 2018-04-14T10:48:12+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0444s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0446s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0441s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0435s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0477s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `pub_flow` WHERE ( `addtime` > 1522512000 AND `addtime` < 1525104000  ) AND ( `status` = '1' )  [ RunTime:0.0441s ]
+NOTIC: [8] Undefined offset: 1 /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( `addtime` > 1522512000 AND `addtime` < 1525104000  )  [ RunTime:0.0444s ]
+NOTIC: [8] Undefined offset: 1 /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0439s ]
+SQL: SELECT distinct(order_id) FROM `pub_orders`  [ RunTime:0.0445s ]
+SQL: SHOW COLUMNS FROM `pub_repair` [ RunTime:0.0435s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pub_repair` LIMIT 1   [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `pub_feeds` [ RunTime:0.0438s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pub_feeds` LIMIT 1   [ RunTime:0.0433s ]
+
+[ 2018-04-14T10:48:12+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0411s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0424s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0405s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0406s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0407s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2018-04-14T10:48:13+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0406s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0407s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0403s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0428s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `pub_flow` WHERE ( `addtime` > 1522512000 AND `addtime` < 1525104000  ) AND ( `status` = '1' )  [ RunTime:0.0406s ]
+NOTIC: [8] Undefined offset: 1 /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( `addtime` > 1522512000 AND `addtime` < 1525104000  )  [ RunTime:0.0407s ]
+NOTIC: [8] Undefined offset: 1 /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0407s ]
+SQL: SELECT distinct(order_id) FROM `pub_orders`  [ RunTime:0.0408s ]
+SQL: SHOW COLUMNS FROM `pub_repair` [ RunTime:0.0404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pub_repair` LIMIT 1   [ RunTime:0.0392s ]
+SQL: SHOW COLUMNS FROM `pub_feeds` [ RunTime:0.0404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pub_feeds` LIMIT 1   [ RunTime:0.0398s ]
+
+[ 2018-04-14T10:48:14+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0441s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0437s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0450s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0503s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0430s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0437s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0433s ]
+SQL: SELECT * FROM `pub_flow` WHERE ( `addtime` > 1522512000 AND `addtime` < 1525104000  ) AND ( `status` = '1' )  [ RunTime:0.0437s ]
+NOTIC: [8] Undefined offset: 1 /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 66 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 67 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 68 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/FlowModel.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( `addtime` > 1522512000 AND `addtime` < 1525104000  )  [ RunTime:0.0434s ]
+NOTIC: [8] Undefined offset: 1 /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: count /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 135 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+NOTIC: [8] Undefined index: money /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 136 行.
+NOTIC: [8] Undefined index: num /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 137 行.
+NOTIC: [8] Undefined index: currentflow /www/Gits/dianqiu/project/Application/Admin/Model/DevicesModel.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `pub_orders` [ RunTime:0.0432s ]
+SQL: SELECT distinct(order_id) FROM `pub_orders`  [ RunTime:0.0435s ]
+SQL: SHOW COLUMNS FROM `pub_repair` [ RunTime:0.0434s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pub_repair` LIMIT 1   [ RunTime:0.0428s ]
+SQL: SHOW COLUMNS FROM `pub_feeds` [ RunTime:0.0432s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pub_feeds` LIMIT 1   [ RunTime:0.0428s ]
+
+[ 2018-04-14T10:48:21+08:00 ] ::1 /index.php/Admin/Setmeal/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0446s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0448s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0444s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0443s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0447s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0445s ]
+SQL: SHOW COLUMNS FROM `pub_device_type` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `pub_device_type`  [ RunTime:0.0442s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2018-04-14T10:53:15+08:00 ] ::1 /index.php/Admin/Setmeal/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0432s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0431s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0433s ]
+NOTIC: [8] Undefined index: validate /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `pub_setmeal` (`tid`,`remodel`,`money`,`flow`,`describe`,`status`,`addtime`) VALUES ('5','1','10000','100','测试测试','1','1523674394') [ RunTime:0.0427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2018-04-14T10:53:16+08:00 ] ::1 /index.php/Admin/setmeal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0437s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0438s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0434s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0435s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0436s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pub_setmeal` INNER JOIN pub_device_type ON pub_setmeal.tid = pub_device_type.id  LIMIT 1   [ RunTime:0.0432s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0506s ]
+SQL: SELECT pub_setmeal.*,pub_device_type.typename FROM `pub_setmeal` INNER JOIN pub_device_type ON pub_setmeal.tid = pub_device_type.id  ORDER BY pub_setmeal.addtime desc LIMIT 0,8   [ RunTime:0.0497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined index: remodel /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 305 行.
+NOTIC: [8] Undefined index: typename /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 306 行.
+NOTIC: [8] Undefined index: minmoney /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 307 行.
+NOTIC: [8] Undefined index: maxmoney /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 308 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 309 行.
+NOTIC: [8] Undefined index: describe /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 310 行.
+NOTIC: [8] Undefined index: mintime /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 311 行.
+NOTIC: [8] Undefined index: maxtime /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 312 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2018-04-14T10:54:00+08:00 ] ::1 /index.php/Admin/setmeal/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0439s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0442s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0441s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0433s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0438s ]
+SQL: SHOW COLUMNS FROM `pub_setmeal` [ RunTime:0.0445s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pub_setmeal` INNER JOIN pub_device_type ON pub_setmeal.tid = pub_device_type.id  LIMIT 1   [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0475s ]
+SQL: SELECT pub_setmeal.*,pub_device_type.typename FROM `pub_setmeal` INNER JOIN pub_device_type ON pub_setmeal.tid = pub_device_type.id  ORDER BY pub_setmeal.addtime desc LIMIT 0,8   [ RunTime:0.0445s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+NOTIC: [8] Undefined index: remodel /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 305 行.
+NOTIC: [8] Undefined index: typename /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 306 行.
+NOTIC: [8] Undefined index: minmoney /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 307 行.
+NOTIC: [8] Undefined index: maxmoney /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 308 行.
+NOTIC: [8] Undefined index: flow /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 309 行.
+NOTIC: [8] Undefined index: describe /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 310 行.
+NOTIC: [8] Undefined index: mintime /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 311 行.
+NOTIC: [8] Undefined index: maxtime /www/Gits/dianqiu/project/Application/Runtime/Cache/Admin/99b35b70dc26d3d55c6a80bdbc3ca16a.php 第 312 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2018-04-14T13:26:27+08:00 ] ::1 /index.php/Admin/Product/filter_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0436s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0439s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0439s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0434s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0436s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000691s ]
+
+[ 2018-04-14T13:26:28+08:00 ] ::1 /index.php/Admin/Product/filterlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0435s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0434s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0432s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0430s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0441s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pub_filters` WHERE `filtername` LIKE '%%' AND `alias` LIKE '%%' AND `url` LIKE '%%' AND ( `price` >= 0  ) AND ( `timelife` >= 0  ) AND ( `flowlife` >= 0  ) AND ( `addtime` >= 0  ) LIMIT 1   [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0434s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` LIKE '%%' AND `alias` LIKE '%%' AND `url` LIKE '%%' AND ( `price` >= 0  ) AND ( `timelife` >= 0  ) AND ( `flowlife` >= 0  ) AND ( `addtime` >= 0  ) LIMIT 0,8   [ RunTime:0.0432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2018-04-14T13:26:31+08:00 ] ::1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0426s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0433s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0427s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0431s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0432s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0422s ]
+SQL: SHOW COLUMNS FROM `pub_device_type` [ RunTime:0.0429s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `pub_device_type` WHERE `typename` LIKE '%%' AND ( `addtime` >= 0  ) LIMIT 1   [ RunTime:0.0424s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0429s ]
+SQL: SELECT * FROM `pub_device_type` WHERE `typename` LIKE '%%' AND ( `addtime` >= 0  ) ORDER BY addtime desc LIMIT 0,8   [ RunTime:0.0429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036211s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-04-14T14:26:02+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002314s ]
+
+[ 2018-04-14T14:26:02+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000742s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2018-04-14T14:26:02+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+
+[ 2018-04-14T14:26:02+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000174s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+

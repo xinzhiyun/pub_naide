@@ -1,0 +1,202 @@
+[ 2018-03-31T10:48:28+08:00 ] ::1 /index.php/Admin/Devices/devicesList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0023s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0018s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: map /www/Gits/dianqiu/project/Application/Admin/Controller/DevicesController.class.php 第 81 行.
+NOTIC: [2] array_filter() expects parameter 1 to be array, null given /www/Gits/dianqiu/project/Application/Admin/Controller/DevicesController.class.php 第 86 行.
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM pub_devices d LEFT JOIN pub_devices_statu statu ON d.device_code=statu.DeviceID LEFT JOIN pub_binding bind ON d.id=bind.did LEFT JOIN pub_vendors vendors ON bind.vid=vendors.id LEFT JOIN pub_device_type type ON d.type_id=type.id LEFT JOIN pub_users u ON u.id=d.uid  LIMIT 1   [ RunTime:0.0058s ]
+SQL: SELECT statu.*,bind.*,d.device_code,type.*,vendors.*,d.name dname,d.phone,d.address,d.id,d.uid,u.open_id FROM pub_devices d LEFT JOIN pub_devices_statu statu ON d.device_code=statu.DeviceID LEFT JOIN pub_binding bind ON d.id=bind.did LEFT JOIN pub_vendors vendors ON bind.vid=vendors.id LEFT JOIN pub_device_type type ON d.type_id=type.id LEFT JOIN pub_users u ON u.id=d.uid  ORDER BY d.id asc LIMIT 0,10   [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2018-03-31T10:50:15+08:00 ] ::1 /index.php/admin/users/user_info/open_id/oXwY4t1qkexB2gLIT7kcg3zxxLQQ.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0015s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0016s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_wechat` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pub_wechat` WHERE `open_id` = 'oXwY4t1qkexB2gLIT7kcg3zxxLQQ' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `pub_users` [ RunTime:0.0014s ]
+SQL: SELECT * FROM pub_users u LEFT JOIN pub_devices d ON u.id=d.uid  WHERE `open_id` = 'oXwY4t1qkexB2gLIT7kcg3zxxLQQ'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `pub_flow` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pub_flow` WHERE ( `status` = '1' ) AND `did` IN ('1') ORDER BY addtime desc  [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0020s ]
+SQL: SELECT `DeviceID`,`ReDay` FROM `pub_devices_statu` WHERE `DeviceID` IN ('166753845596778')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028642s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-03-31T10:50:21+08:00 ] ::1 /index.php/Admin/Devices/devices_detail.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001562s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0016s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0015s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000390s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000506s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-03-31T10:50:21+08:00 ] ::1 /index.php/Admin/Devices/deviceDetail?code=166753845596778
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0021s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0018s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0023s ]
+SQL: SELECT statu.*,bind.*,vendors.*,type.*,d.* FROM pub_devices d LEFT JOIN pub_devices_statu statu ON d.device_code=statu.DeviceID LEFT JOIN pub_binding bind ON d.id=bind.did LEFT JOIN pub_vendors vendors ON bind.vid=vendors.id LEFT JOIN pub_device_type type ON d.type_id=type.id  WHERE `device_code` = '166753845596778' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT type.* FROM pub_devices d LEFT JOIN pub_device_type type ON d.type_id=type.id  WHERE `device_code` = '166753845596778' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '1微米' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT v.* FROM pub_devices d LEFT JOIN pub_binding bind ON d.id=bind.did LEFT JOIN pub_vendors v ON bind.vid=v.id  WHERE `device_code` = '166753845596778' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-31T13:32:42+08:00 ] ::1 /index.php/Admin/Product/filter_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0020s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0017s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2018-03-31T13:32:46+08:00 ] ::1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0015s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0016s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `pub_filters`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2018-03-31T13:32:51+08:00 ] ::1 /index.php/Admin/Product/filter_add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+NOTIC: [2048] Declaration of Admin\Model\AdminMenuModel::getTreeData() should be compatible with Admin\Model\BaseModel::getTreeData($type = 'tree', $order = '', $name = 'name', $child = 'id', $parent = 'pid') /www/Gits/dianqiu/project/Application/Admin/Model/AdminMenuModel.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `pub_admin_menu` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `pub_admin_menu` ORDER BY order_number is null,order_number,id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `pub_auth_group_access` [ RunTime:0.0017s ]
+SQL: SELECT `uid`,`group_id`,`title`,`rules` FROM pub_auth_group_access a INNER JOIN pub_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_auth_rule` [ RunTime:0.0016s ]
+SQL: SELECT `condition`,`name` FROM `pub_auth_rule` WHERE `id` IN ('1','2','38','3','4','5','6','7','8','9','10','11','12','13','15','16','42','18','19','20','21','22','23','24','25','27','28','29','30','31','32','33','34','35','36','37','39','40','41','47','48') AND `type` = 1 AND `status` = 1  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000673s ]
+

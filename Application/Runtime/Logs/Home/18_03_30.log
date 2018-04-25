@@ -1,0 +1,758 @@
+[ 2018-03-30T21:47:23+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Undefined property: stdClass::$access_token /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 102 行.
+NOTIC: [8] Undefined property: stdClass::$ticket /www/Gits/dianqiu/project/ThinkPHP/Library/Org/Util/WeixinJssdk.class.php 第 124 行.
+SQL: SHOW COLUMNS FROM `pub_users` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `pub_users` WHERE ( open_id='oXwY4tygQ0kK3SCrYoK2pME_1b38' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pub_current_devices` [ RunTime:0.0022s ]
+SQL: SELECT `did` FROM `pub_current_devices` WHERE ( `uid`=34 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0017s ]
+SQL: SELECT `RawTDS`,`PureTDS`,`ReFlow`,`SumFlow` FROM `pub_devices` INNER JOIN pub_devices_statu ON pub_devices_statu.DeviceID=pub_devices.device_code  WHERE ( pub_devices.id=66 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE ( DeviceID='868575025673379' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pub_device_type` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pub_device_type` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'RO膜' AND `alias` = 'RO膜360' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '1微米' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '后置活性炭' AND `alias` = '后置活性炭120' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2018-03-30T21:47:37+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0077s ]
+SQL: SELECT `RawTDS`,`PureTDS`,`ReFlow`,`SumFlow` FROM `pub_devices` INNER JOIN pub_devices_statu ON pub_devices_statu.DeviceID=pub_devices.device_code  WHERE ( pub_devices.id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE ( DeviceID='868575025673379' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_device_type` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pub_device_type` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'RO膜' AND `alias` = 'RO膜360' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '1微米' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '后置活性炭' AND `alias` = '后置活性炭120' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2018-03-30T21:47:41+08:00 ] ::1 /index.php/Home/Users/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+SQL: SHOW COLUMNS FROM `pub_wechat` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pub_wechat` INNER JOIN pub_users ON pub_users.open_id=pub_wechat.open_id INNER JOIN pub_current_devices ON pub_current_devices.uid=pub_users.id INNER JOIN pub_devices ON pub_devices.id=pub_current_devices.did  WHERE ( pub_wechat.open_id="oXwY4tygQ0kK3SCrYoK2pME_1b38" ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2018-03-30T21:47:42+08:00 ] ::1 /index.php/Home/Users/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001112s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SHOW COLUMNS FROM `pub_wechat` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `pub_wechat` INNER JOIN pub_users ON pub_users.open_id=pub_wechat.open_id INNER JOIN pub_current_devices ON pub_current_devices.uid=pub_users.id INNER JOIN pub_devices ON pub_devices.id=pub_current_devices.did  WHERE ( pub_wechat.open_id="oXwY4tygQ0kK3SCrYoK2pME_1b38" ) LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2018-03-30T21:47:46+08:00 ] ::1 /index.php/Home/Repair/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `pub_binding` [ RunTime:0.0015s ]
+SQL: SELECT `vid` FROM `pub_binding` WHERE ( did=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_vendors` [ RunTime:0.0016s ]
+SQL: SELECT `phone`,`csphone` FROM `pub_vendors` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2018-03-30T21:47:48+08:00 ] ::1 /index.php/Home/Users/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `pub_wechat` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `pub_wechat` INNER JOIN pub_users ON pub_users.open_id=pub_wechat.open_id INNER JOIN pub_current_devices ON pub_current_devices.uid=pub_users.id INNER JOIN pub_devices ON pub_devices.id=pub_current_devices.did  WHERE ( pub_wechat.open_id="oXwY4tygQ0kK3SCrYoK2pME_1b38" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2018-03-30T21:47:48+08:00 ] ::1 /index.php/Home/Users/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SHOW COLUMNS FROM `pub_wechat` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `pub_wechat` INNER JOIN pub_users ON pub_users.open_id=pub_wechat.open_id INNER JOIN pub_current_devices ON pub_current_devices.uid=pub_users.id INNER JOIN pub_devices ON pub_devices.id=pub_current_devices.did  WHERE ( pub_wechat.open_id="oXwY4tygQ0kK3SCrYoK2pME_1b38" ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2018-03-30T21:47:49+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016182s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2018-03-30T21:47:50+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `pub_work` [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0047s ]
+SQL: SELECT `device_code` FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT w.*,p.name FROM pub_work w LEFT JOIN pub_personnel p ON w.personnel_id=p.id  WHERE `dcode` = '868575025673379'  [ RunTime:0.0009s ]
+
+[ 2018-03-30T21:47:52+08:00 ] ::1 /index.php/Home/Users/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `pub_wechat` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `pub_wechat` INNER JOIN pub_users ON pub_users.open_id=pub_wechat.open_id INNER JOIN pub_current_devices ON pub_current_devices.uid=pub_users.id INNER JOIN pub_devices ON pub_devices.id=pub_current_devices.did  WHERE ( pub_wechat.open_id="oXwY4tygQ0kK3SCrYoK2pME_1b38" ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2018-03-30T21:47:53+08:00 ] ::1 /index.php/Home/Users/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `pub_wechat` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `pub_wechat` INNER JOIN pub_users ON pub_users.open_id=pub_wechat.open_id INNER JOIN pub_current_devices ON pub_current_devices.uid=pub_users.id INNER JOIN pub_devices ON pub_devices.id=pub_current_devices.did  WHERE ( pub_wechat.open_id="oXwY4tygQ0kK3SCrYoK2pME_1b38" ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019720s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2018-03-30T21:47:54+08:00 ] ::1 /index.php/Home/Repair/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_binding` [ RunTime:0.0023s ]
+SQL: SELECT `vid` FROM `pub_binding` WHERE ( did=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_vendors` [ RunTime:0.0021s ]
+SQL: SELECT `phone`,`csphone` FROM `pub_vendors` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000733s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2018-03-30T21:48:21+08:00 ] ::1 /index.php/Home/Repair/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `pub_devices` WHERE `id` = 66 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `pub_repair` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /www/Gits/dianqiu/project/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: SHOW COLUMNS FROM `pub_repair` [ RunTime:0.0017s ]
+SQL: INSERT INTO `pub_repair` (`device_code`,`content`,`uid`,`address`,`addtime`,`picpath`,`did`) VALUES ('868575025673379','213123salkdmqomqpw','34','hhhhh来了句旅进旅退路路通25号','1522417701','/Pic/2018-03-30/5abe402505c12.jpeg','66') [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2018-03-30T21:48:22+08:00 ] ::1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0079s ]
+SQL: SELECT `RawTDS`,`PureTDS`,`ReFlow`,`SumFlow` FROM `pub_devices` INNER JOIN pub_devices_statu ON pub_devices_statu.DeviceID=pub_devices.device_code  WHERE ( pub_devices.id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_devices_statu` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `pub_devices_statu` WHERE ( DeviceID='868575025673379' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `pub_device_type` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `pub_device_type` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_filters` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = 'PP棉180' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '2微米' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '颗粒活性炭' AND `alias` = '颗粒活性炭120' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'RO膜' AND `alias` = 'RO膜360' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '前置活性炭' AND `alias` = '前置活性炭' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = 'PP棉' AND `alias` = '1微米' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `pub_filters` WHERE `filtername` = '后置活性炭' AND `alias` = '后置活性炭120' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2018-03-30T21:48:23+08:00 ] ::1 /index.php/Home/Users/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `pub_wechat` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `pub_wechat` INNER JOIN pub_users ON pub_users.open_id=pub_wechat.open_id INNER JOIN pub_current_devices ON pub_current_devices.uid=pub_users.id INNER JOIN pub_devices ON pub_devices.id=pub_current_devices.did  WHERE ( pub_wechat.open_id="oXwY4tygQ0kK3SCrYoK2pME_1b38" ) LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2018-03-30T21:48:24+08:00 ] ::1 /index.php/Home/Users/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `pub_wechat` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `pub_wechat` INNER JOIN pub_users ON pub_users.open_id=pub_wechat.open_id INNER JOIN pub_current_devices ON pub_current_devices.uid=pub_users.id INNER JOIN pub_devices ON pub_devices.id=pub_current_devices.did  WHERE ( pub_wechat.open_id="oXwY4tygQ0kK3SCrYoK2pME_1b38" ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2018-03-30T21:48:26+08:00 ] ::1 /index.php/Home/WaterPurifier/record.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0023s ]
+SQL: SELECT `device_code` FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `pub_tds` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `pub_tds` WHERE `dcode` = '868575025673379' AND `date` = 201803  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2018-03-30T21:48:27+08:00 ] ::1 /index.php/Home/Users/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `pub_wechat` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `pub_wechat` INNER JOIN pub_users ON pub_users.open_id=pub_wechat.open_id INNER JOIN pub_current_devices ON pub_current_devices.uid=pub_users.id INNER JOIN pub_devices ON pub_devices.id=pub_current_devices.did  WHERE ( pub_wechat.open_id="oXwY4tygQ0kK3SCrYoK2pME_1b38" ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000446s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2018-03-30T21:48:28+08:00 ] ::1 /index.php/Home/Users/mine.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `pub_wechat` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `pub_wechat` INNER JOIN pub_users ON pub_users.open_id=pub_wechat.open_id INNER JOIN pub_current_devices ON pub_current_devices.uid=pub_users.id INNER JOIN pub_devices ON pub_devices.id=pub_current_devices.did  WHERE ( pub_wechat.open_id="oXwY4tygQ0kK3SCrYoK2pME_1b38" ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2018-03-30T21:48:29+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2018-03-30T21:48:29+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `pub_work` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0026s ]
+SQL: SELECT `device_code` FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT w.*,p.name FROM pub_work w LEFT JOIN pub_personnel p ON w.personnel_id=p.id  WHERE `dcode` = '868575025673379'  [ RunTime:0.0003s ]
+
+[ 2018-03-30T21:49:18+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2018-03-30T21:49:19+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `pub_work` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0022s ]
+SQL: SELECT `device_code` FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT w.*,p.name FROM pub_work w LEFT JOIN pub_personnel p ON w.personnel_id=p.id  WHERE `dcode` = '868575025673379'  [ RunTime:0.0008s ]
+
+[ 2018-03-30T21:49:21+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2018-03-30T21:49:21+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `pub_work` [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0026s ]
+SQL: SELECT `device_code` FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT w.*,p.name FROM pub_work w LEFT JOIN pub_personnel p ON w.personnel_id=p.id  WHERE `dcode` = '868575025673379'  [ RunTime:0.0003s ]
+
+[ 2018-03-30T21:49:22+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-03-30T21:49:23+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `pub_work` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0034s ]
+SQL: SELECT `device_code` FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT w.*,p.name FROM pub_work w LEFT JOIN pub_personnel p ON w.personnel_id=p.id  WHERE `dcode` = '868575025673379'  [ RunTime:0.0003s ]
+
+[ 2018-03-30T21:49:23+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2018-03-30T21:49:23+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `pub_work` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0025s ]
+SQL: SELECT `device_code` FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT w.*,p.name FROM pub_work w LEFT JOIN pub_personnel p ON w.personnel_id=p.id  WHERE `dcode` = '868575025673379'  [ RunTime:0.0004s ]
+
+[ 2018-03-30T21:50:32+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009328s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2018-03-30T21:50:33+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `pub_work` [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0021s ]
+SQL: SELECT `device_code` FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT w.*,p.name FROM pub_work w LEFT JOIN pub_personnel p ON w.personnel_id=p.id  WHERE `dcode` = '868575025673379'  [ RunTime:0.0006s ]
+
+[ 2018-03-30T21:50:33+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2018-03-30T21:50:34+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `pub_work` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0025s ]
+SQL: SELECT `device_code` FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT w.*,p.name FROM pub_work w LEFT JOIN pub_personnel p ON w.personnel_id=p.id  WHERE `dcode` = '868575025673379'  [ RunTime:0.0003s ]
+
+[ 2018-03-30T21:50:36+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2018-03-30T21:50:36+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: SHOW COLUMNS FROM `pub_work` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0021s ]
+SQL: SELECT `device_code` FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT w.*,p.name FROM pub_work w LEFT JOIN pub_personnel p ON w.personnel_id=p.id  WHERE `dcode` = '868575025673379'  [ RunTime:0.0003s ]
+
+[ 2018-03-30T21:50:36+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2018-03-30T21:50:37+08:00 ] ::1 /index.php/Home/Users/reward.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `pub_work` [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `pub_devices` [ RunTime:0.0019s ]
+SQL: SELECT `device_code` FROM `pub_devices` WHERE ( id=66 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT w.*,p.name FROM pub_work w LEFT JOIN pub_personnel p ON w.personnel_id=p.id  WHERE `dcode` = '868575025673379'  [ RunTime:0.0005s ]
+
