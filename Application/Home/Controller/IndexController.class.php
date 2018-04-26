@@ -1,11 +1,13 @@
 <?php
 namespace Home\Controller;
-use Common\Controller\HomebaseController;
+use Common\Controller\HomebaseController; 
+/**
+ * 首页
+ */
+class IndexController extends HomebaseController {
 
-
-
-class IndexController extends HomebaseController
-{
 
 
 }
+
+

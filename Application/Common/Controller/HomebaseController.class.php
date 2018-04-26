@@ -7,7 +7,7 @@ use \Org\Util\WeixinJssdk;
 class HomebaseController extends AppframeController {
 
 	function _initialize() {
-		parent::_initialize();
+		//parent::_initialize();
 
         // 获取用户信息写入缓存
         if(empty($_SESSION['homeuser'])){
