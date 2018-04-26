@@ -98,93 +98,6 @@ function onlyOrderId(){
   return $yCode;
 }
 
-
-/**
- *  [数组中枚举数值替换]
- * @param array $data   要替换的数组
- * @param array $replaceData    替换的内容
- * @return array
- * @author yi
- * @example
- *      $data = array(
- *          '0' => array('name'=>'张三','age'=>'18','sex'=>0),
- *          '1' => array('name'=>'李四','age'=>'28','sex'=>1),
- *          '2' => array('name'=>'王五','age'=>'28','sex'=>2),
- *      );
- *      $replaceData = array(
- *          'sex' => array(
- *              '0' => '女',
- *              '1' => '男',
- *              '2' => '保密'
- *          ),
- *          ...
- *      );
- */
-function replaceStrInData($data,$replaceData)
-{
-    foreach ($data as $key=>$value) {
-        foreach ($replaceData as $k=>$v) {
-            foreach ($v as $c=>$val) {
-                foreach ($value as $i=>$item) {
-                    if ($i==$k&&$item==$c) {
-                        $data[$key][$k] = $val;
-                    }
-                }
-            }
-        }
-    }
-
-    return $data;
-}
-
-
-function ss(&$data,$arr){
-    array_walk($data,function(&$v,$k,$arr){
-        foreach ($arr as $key=> $val) {
-            if(array_key_exists($key,$v)){
-                $v[$key]=$val[$v[$key]];
-            }
-        }
-    },$arr);
-};
-
-
-if(!function_exists('replace_value')){
-    /**
-     * 数据过滤 按照格式替换
-     * @param  array &$data 需要过滤的数据
-     * @param  array $arr   替换或添加的规则
-     * @param  string $suffix 替换后的数据下标后缀
-     * @return ''
-     *
-     * @Author 李振东 lzdong@foxmail.com 2018-03-17
-     */
-    function replace_value(array &$data, array $arr, $suffix="")
-    {
-        $arr=['arr'=>$arr, 'suffix'=>$suffix];
-        array_walk($data,function(&$v,$k,$arr){
-            $suffix='';
-            extract($arr);
-            foreach ($arr as $key=> $val) {
-                if(array_key_exists($key,$v)){
-                    if($v[$key]==null){
-                        $v[$key.$suffix]=$val['n'];
-                    }else{
-                        if(is_array($val)){
-                            $v[$key.$suffix]=$val[$v[$key]];
-                        }else{
-                            $v[$key.$suffix]=date($val,$v[$key]);
-                        }
-                    }
-
-                }
-            }
-
-        },$arr);
-    }
-}
-
-
 /**
  * @param $data
  * @param array $replace
@@ -240,6 +153,29 @@ function replace_array_value($data, array $replace, $suffix="")
     },$arr);
     return $data;
 }
+
+
+/**
+ * 判断前台用户是否登录
+ * @return boolean
+ */
+function is_user_login(){
+    $session_user=session('user');
+    return !empty($session_user);
+}
+
+///**
+// * 获取当前登录前台用户id
+// * @return int
+// */
+//function get_current_user(){
+//    $session_user_id=session('user.id');
+//    if(!empty($session_user_id)){
+//        return $session_user_id;
+//    }else{
+//        return 0;
+//    }
+//}
 
 
 

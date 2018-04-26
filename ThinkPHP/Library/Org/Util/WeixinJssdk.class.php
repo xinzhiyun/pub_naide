@@ -20,10 +20,10 @@ class WeixinJssdk
    * 获取地址：https://mp.weixin.qq.com/advanced/advanced?action=dev&t=advanced/dev&token=2005451881&lang=zh_CN
    * @var string
    */
-  public $APPID     = 'wxae48f3bbcda86ab1';
-  public $APPSECRET = '1c39100b331713ae9e96a4e5eb470424';
-  public $MCHID     = '1394894802';
-  public $KEY       = 'CAA5EAE2CE5AC44A3F8930E6F127B423';
+  public $APPID     = APPID;
+  public $APPSECRET = APPSECRET;
+  public $MCHID     = MCHID;
+  public $KEY       = KEY;
 
   //=======【证书路径设置】=====================================
   /**
